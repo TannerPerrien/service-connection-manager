@@ -107,6 +107,11 @@ public abstract class ServiceConnectionManager<S extends Service, B> {
         }
     }
 
+    /**
+     * Cancel the given command.
+     * 
+     * @param command The command to cancel.
+     */
     public void cancelCommand(ServiceCommand<B> command) {
         mCommandQueue.remove(command);
     }
