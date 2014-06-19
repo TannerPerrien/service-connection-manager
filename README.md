@@ -1,6 +1,8 @@
 Serice Connection Manager
 =========================
 
+[![Build Status](https://travis-ci.org/TannerPerrien/service-connection-manager.svg?branch=master)](https://travis-ci.org/TannerPerrien/service-connection-manager)
+
 Use ServiceConnectionManager to manage Service connections in Android, asynchronously issue commands to a Service before it is connected, and receive Service lifecycle callbacks.
 
 Usage
