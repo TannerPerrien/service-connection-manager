@@ -1,5 +1,5 @@
 
-package com.devbytes.cluster;
+package com.tannerperrien.serviceconnectionmanager;
 
 import java.lang.ref.WeakReference;
 import java.util.LinkedHashSet;

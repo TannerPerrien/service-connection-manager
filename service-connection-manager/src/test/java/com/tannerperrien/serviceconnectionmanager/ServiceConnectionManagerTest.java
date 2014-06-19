@@ -1,5 +1,5 @@
 
-package com.devbytes.cluster;
+package com.tannerperrien.serviceconnectionmanager;
 
 import static org.mockito.Mockito.inOrder;
 import static org.mockito.Mockito.mock;
@@ -21,7 +21,8 @@ import android.content.Context;
 import android.content.ServiceConnection;
 import android.os.IBinder;
 
-import com.devbytes.cluster.ServiceConnectionManager.ServiceCommand;
+import com.tannerperrien.serviceconnectionmanager.ServiceConnectionManager;
+import com.tannerperrien.serviceconnectionmanager.ServiceConnectionManager.ServiceCommand;
 
 @RunWith(RobolectricTestRunner.class)
 @Config(manifest = Config.NONE)
